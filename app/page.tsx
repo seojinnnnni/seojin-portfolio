@@ -1,9 +1,11 @@
-import Hero from './components/Hero'
-
 export default function Home() {
   return (
-    <main className="w-full">
-      <Hero />
-    </main>
+    <div className="min-h-screen bg-white">
+      <main className="container mx-auto px-4 py-8">
+        <h1 className="text-4xl font-bold text-center">
+          Welcome to My Portfolio
+        </h1>
+      </main>
+    </div>
   )
 }
